@@ -3,6 +3,7 @@ $(document).ready(function(){
   function GameBoard(numberOfSquares, offsetSnake){
     var self = this;
     this.numberOfSquares = numberOfSquares;
+    $('#game-container').html('');
     this.initialize = function() {
       for(var i = 0; i < self.numberOfSquares; i++){
         $('#game-container').append('<div id="square-'+i+'"class="one-square"></div>');
@@ -151,21 +152,20 @@ $(document).ready(function(){
     };
     this.ateWorm = function(){
       self.points++;
+      if (self.points === 135) {
+        self.gameOn = false;
+
+      }
       $('#points').html(self.points);
       var randomInt = Math.floor(Math.random() * (304) + 1);
       var checkSquare = $('#square-'+randomInt).css('background-color');
-      while(checkSquare === 'rgb(255, 0, 0)'){
+      while((checkSquare === 'rgb(255, 0, 0)') || (checkSquare === 'rgb(0, 0, 0)')){
         randomInt = Math.floor(Math.random() * (304) + 1);
         checkSquare = $('#square-'+randomInt).css('background-color');
       }
       $('#square-'+randomInt).css('background-color', 'red');
     };
   }
-
-  var snake = new Snake(5);
-  var board = new GameBoard(304, snake.length);
-  board.initialize();
-  snake.initialize();
 
   $("body").keydown(function(e) {
     if(e.keyCode == 37) { // left
@@ -203,7 +203,14 @@ $(document).ready(function(){
 
   });
 
+  var snake;
+  var board;
+
   $('#start-button').click(function() {
+    snake = new Snake(5);
+    board = new GameBoard(304, snake.length);
+    board.initialize();
+    snake.initialize();
     snake.startGame();
   });
 
