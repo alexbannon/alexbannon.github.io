@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/alexbannon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://alexbannon.com
+  * I am alexbannon (https://keybase.io/alexbannon) on keybase.
+  * I have a public key ASC45u92lGHBXChqC_OlorE423Zrn1jnXJrvkSyyRSJyNQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b8e6ef769461c15c286a0bf3a5a2b138db766b9f58e75c9aef912cb2452272350a",
+      "host": "keybase.io",
+      "kid": "0120b8e6ef769461c15c286a0bf3a5a2b138db766b9f58e75c9aef912cb2452272350a",
+      "uid": "27efab47f709248d47536159ebb0f819",
+      "username": "alexbannon"
+    },
+    "merkle_root": {
+      "ctime": 1503944444,
+      "hash": "206ab81409611caf5b37c50b1d0a7bbf4b5075ad4a31a0d064f64a9a9bdf0fee9953fdbe08f7731122227793c9bf83f0e7e5f453981f7b5df9724853186662d0",
+      "hash_meta": "c985f37846de792827fd11d5232d868f3e9ceb2ed9d04ee442d4d56af88b8711",
+      "seqno": 1353178
+    },
+    "service": {
+      "hostname": "alexbannon.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.28"
+  },
+  "ctime": 1503944455,
+  "expire_in": 504576000,
+  "prev": "6a0fc5d41edb6aa1965f1b966f7d1ddb5a03c060758046704fa47ba1a659f1f9",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEguObvdpRhwVwoagvzpaKxONt2a59Y51ya75EsskUicjUKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjhlNmVmNzY5NDYxYzE1YzI4NmEwYmYzYTVhMmIxMzhkYjc2NmI5ZjU4ZTc1YzlhZWY5MTJjYjI0NTIyNzIzNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjhlNmVmNzY5NDYxYzE1YzI4NmEwYmYzYTVhMmIxMzhkYjc2NmI5ZjU4ZTc1YzlhZWY5MTJjYjI0NTIyNzIzNTBhIiwidWlkIjoiMjdlZmFiNDdmNzA5MjQ4ZDQ3NTM2MTU5ZWJiMGY4MTkiLCJ1c2VybmFtZSI6ImFsZXhiYW5ub24ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDM5NDQ0NDQsImhhc2giOiIyMDZhYjgxNDA5NjExY2FmNWIzN2M1MGIxZDBhN2JiZjRiNTA3NWFkNGEzMWEwZDA2NGY2NGE5YTliZGYwZmVlOTk1M2ZkYmUwOGY3NzMxMTIyMjI3NzkzYzliZjgzZjBlN2U1ZjQ1Mzk4MWY3YjVkZjk3MjQ4NTMxODY2NjJkMCIsImhhc2hfbWV0YSI6ImM5ODVmMzc4NDZkZTc5MjgyN2ZkMTFkNTIzMmQ4NjhmM2U5Y2ViMmVkOWQwNGVlNDQyZDRkNTZhZjg4Yjg3MTEiLCJzZXFubyI6MTM1MzE3OH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhbGV4YmFubm9uLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjgifSwiY3RpbWUiOjE1MDM5NDQ0NTUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNmEwZmM1ZDQxZWRiNmFhMTk2NWYxYjk2NmY3ZDFkZGI1YTAzYzA2MDc1ODA0NjcwNGZhNDdiYTFhNjU5ZjFmOSIsInNlcW5vIjo1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQIfeIwbOlNYmJEBhiFEW4FFIMw++DUHetHp0WH0BdI6iZ8OO5Mh4oSw1H9qK1Vt1wC7R6eAcUMQ2d7I77KC3Iwioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDoA56amjPryk+JwqtfQhW7DAi+JrbyxNUDB5Hxc2iWOaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alexbannon
+
+==================================================================
