@@ -11,6 +11,7 @@ function navigate() {
       var invoiceNum = $('#sales-order-invoices').children('table').children('tbody').children().children()[0].innerHTML;
       var url = "/shop/invoices/" + invoiceNum + "/allocation";
       window.open(url);
+      window.close();
     }
   }, 500)
 }
