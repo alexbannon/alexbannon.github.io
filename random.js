@@ -1,5 +1,5 @@
 function clickForm() {
-  $('form')[6].submit()
+  $('form[action*="/enable-manual-allocation"]').submit();
 }
 
 window.onload = clickForm;
